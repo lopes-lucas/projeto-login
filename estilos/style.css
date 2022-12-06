@@ -15,6 +15,7 @@
 
 body, html {
     background-color: #5f2c82;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
     height: 100vh;
     width: 100vw;
 }
@@ -24,15 +25,16 @@ main {
     position: relative;
 }
 section#login {
-    background-color: white;
-    width: 250px;
-    height: 500px;
-    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.497);
 }
 section#login > div#imagem {
@@ -40,7 +42,7 @@ section#login > div#imagem {
     background: #5f2c82 url(../imagens/pattern.jpg) no-repeat;
     height: 200px;
     background-size: cover;
-    background-position: left bottom;
+    background-position: left;
 }
 section#login > div#formulario {
     padding: 10px;
